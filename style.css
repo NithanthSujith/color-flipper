@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+nav{
+    background-color: white;
+    box-shadow: 0px 3px 10px 1px grey;
+}
+nav .nav-centre{
+    padding: 10px;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-centre h1{
+    font-size: 30px;
+    color: rgb(64, 194, 250);
+}
+.nav-centre ul {
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.nav-centre ul li{
+    margin: 5px 10px;
+    list-style: none;
+}
+.nav-centre ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-centre ul li a:hover{
+    text-decoration: underline;
+    color: rgb(64, 194, 250);
+}
+main{
+    background: #f1f5f8;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    
+}
+.container{
+    height:35% ;
+    width: 45%;
+}
+.container h2{
+    font-size: 50px;
+    text-align: center;
+    height: 110px;
+    background: rgb(27, 27, 73);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    padding-left: 20px;
+    color: rgb(64, 194, 250);
+    font-size: 40px;
+    
+}
+#btn{
+    position: relative;
+    width: 170px;
+    top: 10px;
+    left:35%;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 4px solid rgb(27, 27, 73);
+    background-color:transparent;
+    border-radius: 10px;
+}
+
